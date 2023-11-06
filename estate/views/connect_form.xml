@@ -18,7 +18,7 @@
                     <group>
                         <group>
                             <field name="name"/>
-                            <field name="subscription_type"/>
+                            <field name="subscription_type" widget="many2many_tags"/>
                             <field name="partner_id"/>
                         </group>
                         <group>
