@@ -1,7 +1,6 @@
 <odoo>
     <form string="Test">
         <sheet>
-            <group>
                 <group>
                     <field name="name"/>
                 </group>
@@ -10,7 +9,6 @@
                     <field name="split_biller"/>
                     <field name="phone_number"></field>
                 </group>
-            </group>
         </sheet>
     </form>
 </odoo>
