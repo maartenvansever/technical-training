@@ -4,5 +4,5 @@ class PartnerConnectModel(models.Model):
     _name = "connect.partner"
     _description = "This defines the connect partners"
 
-    name = fields.char()
-    split_biller = fields.boolean()
+    name = fields.Char()
+    split_biller = fields.Boolean()
