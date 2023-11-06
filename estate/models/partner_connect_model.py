@@ -8,3 +8,4 @@ class PartnerConnectModel(models.Model):
     split_biller = fields.Boolean()
     active = fields.Boolean(default=True)
     phone_number = fields.Char()
+    partner_id = fields.Many2one("base.model_res_partner", string="Partner")
