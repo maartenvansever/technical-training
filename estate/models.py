@@ -1,4 +1,5 @@
 from odoo import models
 
-class TestModel(models.Model):
-    _name = "test_model"
+class PartnerConnectModel(models.Model):
+    _name = "connect.partner"
+    _description = "This defines the connect partners"
