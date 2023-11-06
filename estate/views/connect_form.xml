@@ -4,8 +4,8 @@
          <field name="name">connect.partner</field>
             <field name="model">connect.partner</field>
             <field name="arch" type="xml">
-                <search string="Search Journal Items">
-                     <filter string="partner_connect" name="journal" domain="[('active', '=', True)]"/>
+                <search string="Search active Items">
+                     <filter string="partner_connect" name="active" domain="[('active', '=', True)]"/>
                 </search>
             </field>
     </record>
