@@ -5,6 +5,7 @@
     "depends": ["base"],  # dependencies
     "data": [
         'data/connect.partner.csv',
+        'views/connect_property_views.xml'
     ],
     "installable": True,
     'license': 'LGPL-3',
