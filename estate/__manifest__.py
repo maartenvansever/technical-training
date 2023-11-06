@@ -9,7 +9,7 @@
         'views/connect_menus.xml',
         'security/ir.model.access.csv',
         'views/connect_tree.xml',
-        'view/connect_form.xml'
+        'views/connect_form.xml'
     ],
     "installable": True,
     'license': 'LGPL-3',
