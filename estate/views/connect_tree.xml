@@ -1,5 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <tree string="Tests">
-        <field name="name"/>
-    </tree>
+    <record id="connect_tree" model="ir.ui.view">
+        <field name="name">some name</field>
+        <field name="model">connect.partner</field>
+        <field name="arch" type="xml">
+            <tree string="Tests">
+                <field name="name"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
 </odoo>
