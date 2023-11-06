@@ -1,6 +1,5 @@
 <odoo>
     <tree string="Tests">
         <field name="name"/>
-        <field name="active"/>
     </tree>
 </odoo>
