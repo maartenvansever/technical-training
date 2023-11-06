@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+    <record id="partner_connect" model="ir.ui.view">
+         <field name="name">account.move.line.search</field>
+            <field name="model">account.move.line</field>
+            <field name="arch" type="xml">
+                <search string="Search Journal Items">
+                     <filter string="partner_connect" name="journal" domain="[('active', '=', True)]"/>
+                </search>
+            </field>
+    </record>
     <record id="view_connect_partner_form" model="ir.ui.view">
         <field name="name">connect.partner</field>
         <field name="model">connect.partner</field>
