@@ -7,7 +7,8 @@
         'data/connect.partner.csv',
         'views/connect_property_views.xml',
         'views/connect_menus.xml',
-        'security/ir.model.access.csv'
+        'security/ir.model.access.csv',
+        'views/connect_tree.xml'
     ],
     "installable": True,
     'license': 'LGPL-3',
