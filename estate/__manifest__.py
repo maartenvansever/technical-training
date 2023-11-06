@@ -8,7 +8,8 @@
         'views/connect_property_views.xml',
         'views/connect_menus.xml',
         'security/ir.model.access.csv',
-        'views/connect_tree.xml'
+        'views/connect_tree.xml',
+        'view/connect_form.xml'
     ],
     "installable": True,
     'license': 'LGPL-3',
