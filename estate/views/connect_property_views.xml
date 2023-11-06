@@ -5,7 +5,7 @@
         <field name="view_mode">tree,form</field>
     </record>
     <record id="property_contact_user_action" model="ir.actions.act_window">
-        <field name="name">connect contacts</field>
+        <field name="name">connect contacts subscription types</field>
         <field name="res_model">connect.partner.subscription.type</field>
         <field name="view_mode">tree,form</field>
     </record>
