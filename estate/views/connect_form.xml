@@ -4,14 +4,14 @@
         <field name="model">connect.partner</field>
     <form string="Test">
         <sheet>
+            <group>
                 <group>
                     <field name="name"/>
                 </group>
                 <group>
                     <field name="active"/>
-                    <field name="split_biller"/>
-                    <field name="phone_number"/>
                 </group>
+            </group>
         </sheet>
     </form>
     </record>
