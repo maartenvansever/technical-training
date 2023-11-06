@@ -6,4 +6,4 @@ class PartnerConnectModel(models.Model):
 
     name = fields.Char()
     split_biller = fields.Boolean()
-    active = fields.Boolean()
+    active = fields.Boolean(default=True)
