@@ -1,2 +1,2 @@
-"id","name","display_name","split_biller"
-"test","some user","some display_name",True
+"id","name","display_name","split_biller","phone_number"
+"test","some user","some display_name",True,"+32496206313"

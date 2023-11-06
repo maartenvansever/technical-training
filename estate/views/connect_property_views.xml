@@ -4,4 +4,5 @@
         <field name="res_model">connect.partner</field>
         <field name="view_mode">tree,form</field>
     </record>
+    <filter string="Posted" name="posted" domain="[('active', '=', True)]" help="Posted Journal Items"/>
 </odoo>
