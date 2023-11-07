@@ -65,8 +65,8 @@
         </field>
     </record>
     <record id="view_connect_partner_type_form" model="ir.ui.view">
-        <field name="name">connect.partner.subscription.product</field>
-        <field name="model">connect.partner.subscription.product</field>
+        <field name="name">connect.subscription.product</field>
+        <field name="model">connect.subscription.product</field>
         <field name="arch" type="xml">
             <form string="Test">
                 <sheet>
