@@ -46,7 +46,18 @@
                 <sheet>
                     <group>
                         <group>
-                            <field name="name"/>
+                            <group>
+                                <field name="name"/>
+                            </group>
+                        </group>
+                        <group>
+                                <notebook colspan="4">
+                                    <page string="Information" name="information">
+                                        <group>
+                                             <field name="product_ids"/>
+                                        </group>
+                                    </page>
+                                </notebook>
                         </group>
                     </group>
                 </sheet>
@@ -60,11 +71,11 @@
             <form string="Test">
                 <sheet>
                     <group>
-                        <group>
-                            <field name="name"/>
-                            <field name="price"/>
-                            <field name="amount"/>
-                        </group>
+                            <group>
+                                <field name="name"/>
+                                <field name="price"/>
+                                <field name="amount"/>
+                            </group>
                     </group>
                 </sheet>
             </form>
