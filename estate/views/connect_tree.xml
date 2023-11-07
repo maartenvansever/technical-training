@@ -10,4 +10,15 @@
             </tree>
         </field>
     </record>
+     <record id="connect_product" model="ir.ui.view">
+        <field name="name">subscription products</field>
+        <field name="model">connect.subscription.product</field>
+        <field name="arch" type="xml">
+            <tree string="Tests">
+                <field name="amount"/>
+                <field name="price"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
 </odoo>

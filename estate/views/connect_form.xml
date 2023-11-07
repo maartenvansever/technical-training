@@ -54,13 +54,11 @@
 
                         </group>
                     </group>
-                                <notebook colspan="4">
-                                    <page string="Information" name="information">
-                                        <group>
-                                             <field name="product_ids"/>
-                                        </group>
-                                    </page>
-                                </notebook>
+                    <notebook colspan="4">
+                        <page string="Information" name="information">
+                                <field name="product_ids"/>
+                        </page>
+                    </notebook>
 
                 </sheet>
             </form>
