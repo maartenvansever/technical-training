@@ -9,7 +9,7 @@ class PartnerConnectSubscriptionTypeModel(models.Model):
     product_ids = fields.Many2many("connect.subscription.product",
                                    string="Product",
                                    relation='connect_type_product_rel')
-    total_taxed = fields.Float(computed='_compute_total_taxed', inverse="_inverse_total_taxed")
+    total_taxed = fields.Float(compute='_compute_total_taxed', inverse="_inverse_total_taxed")
     tax = fields.Float()
 
     @api.depends('total', 'tax')
