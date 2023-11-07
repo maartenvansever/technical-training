@@ -49,6 +49,8 @@
                             <group>
                                 <field name="name"/>
                                 <field name="total"/>
+                                <field name="tax"/>
+                                <field name="total_taxed"/>
                             </group>
                         </group>
                         <group>
