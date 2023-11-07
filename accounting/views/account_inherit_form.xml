@@ -4,7 +4,7 @@
         <field name="model">account.move</field>
         <field name="inherit_id" ref="account.view_move_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//button[@name='action_cancel']">
+            <xpath expr="//button[@name='button_cancel']">
                 <button name="action_fill_book_keeper" type="action" string="update book keeper"/>
             </xpath>
             <xpath expr="//field[@name='partner_id']" position="after">
