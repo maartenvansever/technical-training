@@ -9,4 +9,9 @@
         <field name="res_model">connect.partner.subscription.type</field>
         <field name="view_mode">tree,form</field>
     </record>
+     <record id="property_connect_subscription_product" model="ir.actions.act_window">
+        <field name="name">subscription products</field>
+        <field name="res_model">connect.partner.subscription.product</field>
+        <field name="view_mode">tree,form</field>
+    </record>
 </odoo>

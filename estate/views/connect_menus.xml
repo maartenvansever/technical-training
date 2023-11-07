@@ -3,6 +3,7 @@
         <menuitem id="test_first_level_menu" name="First Level">
             <menuitem id="test_model_menu_action" action="test_model_action"/>
             <menuitem id="property_connect_menu_action" action="property_contact_user_action"/>
+            <menuitem id="property_connect_product_action" action="property_connect_subscription_product"/>
         </menuitem>
     </menuitem>
 </odoo>
