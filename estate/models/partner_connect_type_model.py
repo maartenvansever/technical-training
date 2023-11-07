@@ -5,7 +5,7 @@ class PartnerConnectSubscriptionTypeModel(models.Model):
     _description = "This defines the connect partners types."
 
     name = fields.Char()
-    total=  fields.float(compute='_compute_total')
+    total=  fields.Float(compute='_compute_total')
     product_ids = fields.Many2many("connect.subscription.product",
                                    string="Product",
                                    relation='connect_type_product_rel')
