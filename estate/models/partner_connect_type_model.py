@@ -1,4 +1,4 @@
-from odoo import models, fields
+from odoo import models, fields, api
 
 class PartnerConnectSubscriptionTypeModel(models.Model):
     _name = "connect.partner.subscription.type"
