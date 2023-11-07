@@ -4,6 +4,7 @@
     "application": True,  # This line says the module is an App, and not a module
     "depends": ["base", "account"],  # dependencies
     "data": [
+        'views/account_inherit_form.xml'
     ],
     "installable": True,
     'license': 'LGPL-3',
