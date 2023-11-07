@@ -51,6 +51,9 @@
                             </group>
                         </group>
                         <group>
+
+                        </group>
+                    </group>
                                 <notebook colspan="4">
                                     <page string="Information" name="information">
                                         <group>
@@ -58,8 +61,7 @@
                                         </group>
                                     </page>
                                 </notebook>
-                        </group>
-                    </group>
+
                 </sheet>
             </form>
         </field>
