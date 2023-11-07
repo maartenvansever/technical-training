@@ -5,7 +5,9 @@ class PartnerConnectSubscriptionTypeModel(models.Model):
     _description = "This defines the connect partners types."
 
     name = fields.Char()
-    product_ids = fields.Many2many("connect.subscription.product", string="Product")
+    product_ids = fields.Many2many("connect.subscription.product",
+                                   string="Product",
+                                   relation='connect_type_product_rel')
 
 
 
