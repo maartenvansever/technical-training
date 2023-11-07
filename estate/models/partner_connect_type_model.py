@@ -5,14 +5,15 @@ class PartnerConnectSubscriptionTypeModel(models.Model):
     _description = "This defines the connect partners types."
 
     name = fields.Char()
-    total=  fields.float()
+    total=  fields.float(compute='_compute_total')
     product_ids = fields.Many2many("connect.subscription.product",
                                    string="Product",
                                    relation='connect_type_product_rel')
 
-    @api.depends('total')
+    @api.depends('product_ids.price', 'product_ids.amount')
     def _compute_total(self):
         for record in self:
-            record.total = record.total + (record.product_ids.price * record.product_ids.amount)
+            for product in record.product_ids:
+                record.total += product.price * product.amount
 
 
