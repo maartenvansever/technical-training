@@ -2,7 +2,7 @@
     "name": "connect user",  # The name that will appear in the App list
     "version": "17.0.0.0.6",  # Version
     "application": True,  # This line says the module is an App, and not a module
-    "depends": ["base"],  # dependencies
+    "depends": ["base"],  # dependencies hey
     "data": [
         'data/connect.partner.csv',
         'views/connect_property_views.xml',
